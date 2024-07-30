@@ -1,3 +1,5 @@
+import { PropTypes } from "prop-types";
+
 const Navbar = ({ title, links }) => {
   return (
     <nav className="fixed top-0 left-0 right-0 bg-white shadow-sm border-b">
@@ -15,6 +17,11 @@ const Navbar = ({ title, links }) => {
       </div>
     </nav>
   );
+};
+
+Navbar.propTypes = {
+  title: PropTypes.string,
+  links: PropTypes.object,
 };
 
 export default Navbar;
