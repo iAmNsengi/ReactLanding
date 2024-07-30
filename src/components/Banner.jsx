@@ -6,9 +6,9 @@ const Banner = ({ title, description }) => {
     <section
       id="page-top"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.9),rgba(1, 0, 0, 0.9), rgba(255, 255, 0, 0.1)), url('/public/intro-bg.jpg')`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/public/intro-bg.jpg')`,
       }}
-      className="h-screen bg-cover bg-blend-overlay -mt-20"
+      className="h-screen bg-cover b -mt-20 "
     >
       <div className="text-center max-w-3xl mx-auto my-auto text-white pt-56">
         <h1 className="text-8xl pt-40 font-bold tracking-normal leading-52">
