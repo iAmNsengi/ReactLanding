@@ -1,4 +1,5 @@
 import { PropTypes } from "prop-types";
+import Button from "./Button";
 
 const Banner = ({ title, description }) => {
   return (
@@ -14,9 +15,7 @@ const Banner = ({ title, description }) => {
           {title}{" "}
         </h1>
         <h3 className="py-10 text-xl font-normal">{description}</h3>
-        <button className="rounded-3xl bg-[linear-gradient(#6372FF,#5F8DFD)] py-3 px-10">
-          LEARN MORE
-        </button>
+        <Button title={"learn more"} />
       </div>
     </section>
   );
